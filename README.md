@@ -21,12 +21,14 @@ Examining histograms and kernel density estimation (KDE) plots for each metric (
 
 Figure 1. Example distplot for annual income.
 
+
 Using the 'hue' parameter to further differentiate the customer base by gender unveiled a predominant representation of female shoppers across the metrics, characterized by denser concentrations in the dataset.
 
 
 <img width="437" alt="image" src="https://github.com/hannah0wang/customer-segmentation-analysis/assets/43276816/d1ccb7ea-00b7-47a3-a0ab-ac3a53d9eb3e">
 
 Figure 2. Example KDE plot for annual income, utilizing the hue parameter to distinguish the distributions for both male and female.
+
 
 Using boxplots for each metric allowed for a detailed examination of the median, quartiles, outlier presence, and data spread, facilitating a comparison across genders.
 
@@ -42,9 +44,11 @@ Employing scatterplots/pairplots allowed the visual inspection and catorization 
 Figure 4. Scatterplot for the relationship between annual income and spending score. Visual approximation identifies 5 clusters.
 
 
+
 <img width="632" alt="image" src="https://github.com/hannah0wang/customer-segmentation-analysis/assets/43276816/992a24ed-7503-49d1-a471-318f07aa053c">
 
 Figure 5. Pairplot using the 'hue' parameter. Age, annual income, and spending score metrics.
+
 
 Heatmaps were used to visualize the correlation between the variables. It was noticed that there is a slight negative correlation between age and spending score, sugesting that customers spend less as they get older. Additionally, there is a slight positive correlation between annual income and spending score, suggesting that spending increases as annual income increases.
 
@@ -62,15 +66,21 @@ Centroid-based clustering was employed using KMeans algorithm to group data poin
 
 Figure 7. Plot of inertia (WCSS) vs. number of clusters for bivariate clustering. The point of inflection occurs at n = 5, so this n value is the optimal number of clusters.
 
+
+
 ![image](https://github.com/hannah0wang/customer-segmentation-analysis/assets/43276816/8aec00da-9223-45c8-9989-34b113564551)
 
 
 Figure 8. Vizualization of the Spending and Income Cluster. Clusters are distinguished by color, and their central points (centroids) are displayed on the plot.
 
+
+
 <img width="266" alt="image" src="https://github.com/hannah0wang/customer-segmentation-analysis/assets/43276816/279f0038-b982-45c6-b992-395428c97426">
 
 
 Figure 9. Cluster breakdown by gender, which shows the percentage of male and female for each cluster.
+
+
 
 <img width="452" alt="image" src="https://github.com/hannah0wang/customer-segmentation-analysis/assets/43276816/a18206d3-56d8-4bcb-8cf9-a902c8f364d8">
 
